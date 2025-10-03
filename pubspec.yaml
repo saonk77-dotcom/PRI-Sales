@@ -1,0 +1,18 @@
+name: sales_app_option2
+description: Demo sales app (Option 2 - direct public Google Sheet CSV)
+publish_to: 'none'
+version: 0.1.0+1
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.14.0
+  provider: ^6.0.5
+  intl: ^0.18.0
+  csv: ^5.0.0
+  syncfusion_flutter_charts: ^20.2.45
+
+flutter:
+  uses-material-design: true
